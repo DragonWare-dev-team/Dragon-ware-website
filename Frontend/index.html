@@ -52,43 +52,55 @@
   <section id="services">
     <h2>Our Services</h2>
     <div class="services-grid">
-      <div class="card">Web Development</div>
-      <div class="card">Brand & Design</div>
-      <div class="card">Business Consulting</div>
-      <div class="card">AI & Automation</div>
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Building responsive and user-friendly websites tailored to your needs.</p>
+      </div>
+            <div class="card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Brand & design</h3>
+        <p>From logos to full brand identities, we create visuals that leave a mark.</p>
+      </div>
+            <div class="card">
+        <i class="fas fa-briefcase"></i>
+        <h3>Business consulting</h3>
+        <p>Helping companies grow with smart strategies and digital transformation.</p>
+      </div>
+            <div class="card">
+        <i class="fas fa-glasses"></i>
+        <h3>Tech Courses</h3>
+        <p>We offer tech related courses in various genres.</p>
+      </div>
     </div>
   </section>
 
-  <section id="portfolio">
+<section id="portfolio">
   <h2>Our Work</h2>
   <div class="portfolio-grid">
-    <div class="portfolio-item">
-      <img src="assets/project1.jpg" alt="Project 1">
-      <h3>Kanz Digital Camp</h3>
-      <p>A 6-week Tech camp for kids.</p>
-    </div>
-    <div class="portfolio-item">
-      <img src="assets/project2.jpg" alt="Project 2">
-      <h3>Company Branding & Marketing</h3>
-      <p>Full brand identity and market planing for bunch of local businesses.</p>
-    </div>
-    <div class="portfolio-item">
-      <img src="assets/project3.jpg" alt="Project 3">
-      <h3>Work With Local Delivery Companies</h3>
-      <p>Work really closely with local delivery companies like moamen and tracx.</p>
-    </div>
+    <img src="assets/project1.jpg" alt="Project 1">
+    <img src="assets/project1.jpg" alt="Project 2">
+    <img src="assets/project1.jpg" alt="Project 3">
+    <img src="assets/project1.jpg" alt="Project 4">
+    <img src="assets/project1.jpg" alt="Project 5">
+    <img src="assets/project1.jpg" alt="Project 6">
   </div>
 </section>
+
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Get in Touch</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+<form action="https://formspree.io/f/xvgqjkrz" method="POST">
+  <label>Your name: </label>
+  <input type="text" name="name" required>
+  <label>Your email:  </label>
+  <input type="email" name="email">
+  <label> Your message:  </label>
+  <textarea name="message"> </textarea>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
   </section>
 
   <!-- Footer -->

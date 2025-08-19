@@ -60,7 +60,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   position: relative;
-  height: 100vh; /* full screen height */
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,12 +75,12 @@ nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;  /* keeps video proportional */
-  z-index: -1;        /* push behind text */
-  filter: brightness(0.5); /* darken so text pops */
+  object-fit: cover; 
+  z-index: -1;        
+  filter: brightness(0.5); 
 }
 
-/* Hero content (centered text) */
+/* Hero content */
 .hero-content {
   color: #fff;
   z-index: 1;
@@ -96,8 +96,8 @@ nav ul li a:hover {
   margin-bottom: 2rem;
 }
 .hero-content a.btn {
-  background: #00f5d4; /* bright cyan */
-  color: #0f172a; /* dark navy */
+  background: #00f5d4; 
+  color: #0f172a; 
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
@@ -128,9 +128,30 @@ section h2 {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  font-weight: 600;
+  font-weight: 400;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
 }
 
+.card:hover {
+  transform: translateY(10px);
+  box-shadow: 0 8px 12px rgba(15, 23, 42, 0.664);
+}
+
+.card i {
+  font-size: 1.9rem;
+  color: rgba(15, 23, 42, 1);
+  margin-bottom: 1rem;
+}
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+.card p {
+  color: #374151;
+  font-size: 0.95rem;
+}
 /* Portfolio Section */
 #portfolio {
   padding: 4rem 2rem;
@@ -143,28 +164,30 @@ section h2 {
   color: #0f172a;
 }
 
-/* Image grid */
 .portfolio-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center ;
-  gap: 1rem; 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Images */
 .portfolio-grid img {
-  width: 300px; 
+  width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-
+/* Hover effect */
 .portfolio-grid img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0,0,0,0.25);
 }
+
 
 /* Contact */
 form {
