@@ -161,11 +161,8 @@ section h2 {
   padding: 4rem 2rem;
 }
 
-/* Section Card */
 .section-card {
-  background-color: #ffffff; 
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  background-color: #0f172a; 
   padding: 3rem 2rem;
   margin: 0 auto;
   max-width: 1200px;
@@ -177,13 +174,13 @@ section h2 {
 .section-card h2 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
-  color: #0f172a;
+  color: #ffffff;
 }
 
 .intro-text {
   font-size: 1.1rem;
   margin-bottom: 2.5rem;
-  color: #0f172a;
+  color: #94a3b8;
 }
 
 /* Team Grid */
@@ -196,10 +193,10 @@ section h2 {
 
 /* Team Cards */
 .team-card {
-  background: #0f172a;
+  background: #ffffff;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.685);
   text-align: center;
   flex: 1 1 250px; 
   max-width: 300px;
@@ -223,25 +220,25 @@ section h2 {
 
 .team-card h3 {
   margin: 0.5rem 0;
-  color: #f1f5f9;
+  color: #0f172a;
 }
 
 .team-card .role {
   font-weight: bold;
-  color: #38bdf8;
+  color: #1e293b;
   margin-bottom: 0.3rem;
 }
 
 .team-card .experience,
 .team-card .specialty {
   font-size: 0.95rem;
-  color: #cbd5e1;
+  color: #475569;
 }
 
 .team-card blockquote {
   margin-top: 1rem;
   font-style: italic;
-  color: #94a3b8;
+  color: #475569;
 }
 
 
@@ -305,25 +302,25 @@ section h2 {
   justify-content: center;
 }
 
-.section-card2 {
-  background: #ffffff;
+.section-card3 {
+  background: #0f172a;
   border-radius: 16px;
   padding: 3rem 2rem;
   max-width: 1200px;
   width: 100%;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
-.section-card2 h2 {
+.section-card3 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #0f172a;
+  color: #ffffff;
 }
 
-.section-card2 p {
-  color: #475569;
-  margin-bottom: 2rem;
+.section-card3 p {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: #94a3b8;
 }
 
 /* Grid */
@@ -333,7 +330,7 @@ section h2 {
   gap: 2rem;
 }
 
-/* Each portfolio item (banner CTA) */
+/* Each portfolio item */
 .portfolio-item {
   position: relative;
   display: block;
@@ -382,12 +379,12 @@ section h2 {
 
 
 /* Contact */
-.section-wrapper {
+.section-wrapper2 {
   background: #0f172a; 
   padding: 4rem 2rem;
 }
 
-.section-card {
+.section-card2 {
   border-radius: 16px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
   padding: 3rem 2rem;
